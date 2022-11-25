@@ -23,7 +23,9 @@ header {
 img {
   width: 380px;
 }
-
+a {
+  text-decoration: none;
+}
 header,
 .navbar-brand {
   font-size: 30px;
@@ -61,9 +63,34 @@ footer,
   padding: 0px;
 }
 .footer-signs {
+  display: flex;
   color: white;
-  padding: 0 160px;
+  padding: 10px 170px;
 }
 .container-fluid {
   font-size: 30px;
 }
+.footer-navbar > .container,
+.footer-navbar > .footer-navbar-content,
+.footer-navbar > .container-lg,
+.footer-navbar > .container-md,
+.footer-navbar > .container-sm,
+.footer-navbar > .container-xl,
+.footer-navbar > .container-xxl {
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+  .skill-sign {
+    font-size: 29px;
+  }
+  body {
+    margin-bottom: 60px;
+  }
+
+  .footer-signs {
+    padding: 10px 10px;
+  }
+} ;
