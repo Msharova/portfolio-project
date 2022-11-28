@@ -17,7 +17,8 @@ h3 {
 }
 h3,
 h2,
-header {
+header,
+.about-maria-text {
   font-family: "Teko", sans-serif;
 }
 img {
@@ -80,6 +81,14 @@ footer,
   margin: 0 auto;
   display: flex;
 }
+.about-hero {
+  margin-top: 100px;
+}
+.about-maria-text {
+  height: 366px;
+  font-size: 30px;
+  text-align: center;
+}
 .footer-navbar > .container,
 .footer-navbar > .footer-navbar-content,
 .footer-navbar > .container-lg,
@@ -102,5 +111,11 @@ footer,
 
   .footer-signs {
     padding: 10px 10px;
+  }
+  .about-hero {
+    margin: 10px auto;
+  }
+  .about-maria-text {
+    margin-top: 10px;
   }
 } ;
