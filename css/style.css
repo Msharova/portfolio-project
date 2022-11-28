@@ -41,7 +41,7 @@ footer,
   background-color: var(--main-color);
 }
 .hero {
-  margin: 30px auto;
+  margin: 10px auto 30px auto;
 }
 .main-info {
   margin: 0 auto;
@@ -52,6 +52,11 @@ footer,
   color: var(--main-color);
   margin: 0;
   padding: 10px;
+  border: 1px solid transparent;
+}
+.skill-sign:hover {
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
 }
 .skills {
   display: flex;
