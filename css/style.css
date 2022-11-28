@@ -18,7 +18,9 @@ h3 {
 h3,
 h2,
 header,
-.about-maria-text {
+.about-maria-text,
+.about-weather-app-text,
+.about-cats-app-text {
   font-family: "Teko", sans-serif;
 }
 img {
@@ -73,7 +75,26 @@ footer,
   color: white;
   padding: 10px 170px;
 }
-
+.launch-app-link {
+  padding: 15px 15px;
+  color: var(--main-color);
+  text-decoration: none;
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+}
+.cats-link {
+  padding: 15px 15px;
+  color: var(--main-color);
+  text-decoration: none;
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+}
+.launch-app-link:hover,
+.cats-link:hover {
+  color: white;
+  background: var(--main-color);
+  transition: ease-in-out 150ms;
+}
 .container-fluid {
   font-size: 30px;
 }
@@ -81,13 +102,36 @@ footer,
   margin: 0 auto;
   display: flex;
 }
-.about-hero {
+.about-hero,
+.about-projects {
   margin-top: 100px;
 }
-.about-maria-text {
+.about-maria-text,
+.about-weather-app-text {
   height: 366px;
   font-size: 30px;
-  text-align: center;
+  text-align: start;
+}
+.about-cats-app-text {
+  height: 366px;
+  font-size: 30px;
+  text-align: start;
+}
+.projects {
+  width: 900px;
+}
+.project-body {
+  margin-bottom: 100px;
+}
+.cats-container {
+  margin-top: 50px;
+}
+.weather-image {
+  background: linear-gradient(
+    109.6deg,
+    rgb(27, 27, 79, 0.8) 11.2%,
+    rgb(120, 201, 244, 0.1) 100.2%
+  );
 }
 .footer-navbar > .container,
 .footer-navbar > .footer-navbar-content,
