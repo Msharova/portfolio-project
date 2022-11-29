@@ -156,9 +156,7 @@ footer,
 .contacts-h2 {
   display: inline;
 }
-.contacts {
-  margin-top: 100px;
-}
+
 .footer-navbar > .container,
 .footer-navbar > .footer-navbar-content,
 .footer-navbar > .container-lg,
@@ -199,7 +197,16 @@ footer,
   .project-body {
     margin-bottom: 150px;
   }
+  .contacts-body {
+    margin-bottom: 0;
+  }
   .contacts-container {
     margin-left: 12px;
+  }
+  .contacts-h2 {
+    font-size: 29px;
+  }
+  .email-link {
+    font-size: 25px;
   }
 } ;
