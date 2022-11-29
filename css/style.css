@@ -11,13 +11,15 @@ h2 {
   font-size: 45px;
   margin: 20px auto;
 }
-h3 {
+h3,
+.email-link {
   font-size: 30px;
   margin: 10px auto;
 }
 h3,
 h2,
 header,
+.email-link,
 .about-maria-text,
 .about-weather-app-text,
 .about-cats-app-text {
@@ -139,6 +141,13 @@ footer,
 }
 .app-name {
   font-size: 40px;
+}
+.contacts-container {
+  margin: 50px auto;
+  max-width: 900px;
+}
+.contacts-h2 {
+  display: inline;
 }
 .footer-navbar > .container,
 .footer-navbar > .footer-navbar-content,
