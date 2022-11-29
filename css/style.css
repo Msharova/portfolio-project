@@ -35,6 +35,9 @@ footer,
   text-align: center;
   color: var(--main-color);
 }
+.index-body {
+  margin-bottom: 100px;
+}
 .certificates {
   margin: 0 auto;
 }
