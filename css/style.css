@@ -11,6 +11,12 @@ h2 {
   font-size: 45px;
   margin: 20px auto;
 }
+img {
+  width: 380px;
+}
+a {
+  text-decoration: none;
+}
 h3,
 .email-link {
   font-size: 30px;
@@ -25,12 +31,7 @@ header,
 .about-cats-app-text {
   font-family: "Teko", sans-serif;
 }
-img {
-  width: 380px;
-}
-a {
-  text-decoration: none;
-}
+
 header,
 .navbar-brand {
   font-size: 30px;
