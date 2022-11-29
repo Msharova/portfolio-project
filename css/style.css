@@ -42,6 +42,12 @@ footer,
   text-align: center;
   color: var(--main-color);
 }
+.certificates {
+  margin: 0 auto;
+}
+.certificates-main-div {
+  margin: 0 auto;
+}
 .container-fluid,
 .navbar {
   background-color: var(--main-color);
