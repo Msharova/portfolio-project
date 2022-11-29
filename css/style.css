@@ -137,6 +137,9 @@ footer,
     rgb(120, 201, 244, 0.1) 100.2%
   );
 }
+.app-name {
+  font-size: 40px;
+}
 .footer-navbar > .container,
 .footer-navbar > .footer-navbar-content,
 .footer-navbar > .container-lg,
@@ -166,10 +169,15 @@ footer,
   .about-maria-text {
     margin-top: 10px;
   }
-  .weather-image {
+  .weather-photo-div,
+  .cats-div {
     display: none;
   }
-  .about-weather-app-text {
+  .about-weather-app-text,
+  .about-cats-app-text {
     text-align: center;
+  }
+  .project-body {
+    margin-bottom: 150px;
   }
 } ;
