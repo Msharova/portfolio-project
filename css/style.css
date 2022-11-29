@@ -149,6 +149,9 @@ footer,
 .contacts-h2 {
   display: inline;
 }
+.contacts {
+  margin-top: 100px;
+}
 .footer-navbar > .container,
 .footer-navbar > .footer-navbar-content,
 .footer-navbar > .container-lg,
@@ -188,5 +191,8 @@ footer,
   }
   .project-body {
     margin-bottom: 150px;
+  }
+  .contacts-container {
+    margin-left: 12px;
   }
 } ;
