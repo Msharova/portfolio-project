@@ -22,4 +22,4 @@ Portfolio website
 ```
 
 Project page
-[https://maria-sharova-weather.netlify.app/](https://maria-sharova-weather.netlify.app/)
+([https://maria-sharova-weather.netlify.app/](https://maria-sharova.netlify.app/))
