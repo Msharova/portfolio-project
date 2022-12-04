@@ -1,4 +1,4 @@
-№# portfolio-project
+## portfolio-project
 
 Portfolio website
 
