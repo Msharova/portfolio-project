@@ -133,9 +133,11 @@ footer,
 .project-body {
   margin-bottom: 100px;
 }
-.cats-container {
+.cats-container,
+.react-weather-app-container {
   margin-top: 50px;
 }
+
 .weather-image {
   background: linear-gradient(
     109.6deg,
@@ -167,8 +169,11 @@ footer,
   h1 {
     font-size: 50px;
   }
+  h3 {
+    font-size: 25px;
+  }
   .skill-sign {
-    font-size: 29px;
+    font-size: 27px;
   }
   body,
   .contacts-body {
@@ -185,7 +190,8 @@ footer,
     margin-top: 10px;
   }
   .weather-photo-div,
-  .cats-div {
+  .cats-div,
+  .react-weather-app-div {
     display: none;
   }
   .about-weather-app-text,
