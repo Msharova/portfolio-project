@@ -117,6 +117,7 @@ footer,
   text-align: center;
 }
 .landing-page-cats-text,
+.landing-page-hiking-text,
 .react-weather-app-text,
 .vanilla-weather-app-text {
   height: 366px;
@@ -124,6 +125,7 @@ footer,
   text-align: start;
 }
 .landing-page-cats-container,
+.landing-page-hiking-container,
 .react-weather-app-container,
 .vanilla-weather-app-container {
   margin-top: 50px;
@@ -178,17 +180,41 @@ footer,
   }
   .vanilla-weather-photo-img,
   .landing-page-cats-img,
+  .landing-page-hiking-img,
   .react-weather-app-img {
     display: none;
   }
+  .landing-page-cats-text,
+  .landing-page-hiking-text,
+  .react-weather-app-text,
+  .vanilla-weather-app-text {
+    text-align: center;
+    height: 50%;
+  }
+  .react-weather-app-container,
+  .vanilla-weather-app-container,
+  .landing-page-hiking-container,
+  .landing-page-cats-container {
+    line-height: 1;
+  }
   .project-body {
-    margin-bottom: 150px;
+    margin: 0 auto 100px auto;
   }
   .contacts-h2 {
     font-size: 29px;
   }
   .email-link {
     font-size: 25px;
+  }
+  .launch-app-link {
+    display: flex;
+    justify-content: center;
+    margin: 0 80px;
+  }
+  .app-name {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
   }
   .maria-photo {
     margin-top: 10px;
