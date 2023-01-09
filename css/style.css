@@ -87,7 +87,7 @@ footer,
   border: 1px solid var(--main-color);
   border-radius: 4px;
 }
-.cats-link,
+
 .launch-app-link {
   padding: 15px 15px;
   color: var(--main-color);
@@ -95,8 +95,7 @@ footer,
   border: 1px solid var(--main-color);
   border-radius: 4px;
 }
-.launch-app-link:hover,
-.cats-link:hover {
+.launch-app-link:hover {
   color: white;
   background: var(--main-color);
   transition: ease-in-out 150ms;
@@ -109,8 +108,7 @@ footer,
   display: flex;
   justify-content: center;
 }
-.about-hero,
-.vanilla-weather-app-div {
+.about-hero {
   margin-top: 100px;
 }
 .about-maria-text {
@@ -118,13 +116,10 @@ footer,
   font-size: 30px;
   text-align: center;
 }
-.about-weather-app-text {
-  height: 366px;
-  font-size: 30px;
-  text-align: start;
-}
-.about-cats-app-text,
-.react-weather-app-text {
+
+.landing-page-cats-text,
+.react-weather-app-text,
+.vanilla-weather-app-text {
   height: 366px;
   font-size: 30px;
   text-align: start;
@@ -135,8 +130,9 @@ footer,
 .project-body {
   margin-bottom: 100px;
 }
-.cats-container,
-.react-weather-app-container {
+.landing-page-cats-container,
+.react-weather-app-container,
+.vanilla-weather-app-container {
   margin-top: 50px;
 }
 
@@ -191,15 +187,10 @@ footer,
   .about-maria-text {
     margin-top: 10px;
   }
-  .weather-photo-div,
-  .cats-div,
+  .vanilla-weather-photo-img,
+  .landing-page-cats-img,
   .react-weather-app-img {
     display: none;
-  }
-  .about-weather-app-text,
-  .about-cats-app-text,
-  .react-weather-app-text {
-    text-align: center;
   }
   .project-body {
     margin-bottom: 150px;
