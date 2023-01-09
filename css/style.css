@@ -43,6 +43,7 @@ footer,
 }
 .certificates-main-div {
   margin: 0 auto;
+  max-width: 800px;
 }
 .container-fluid,
 .navbar {
@@ -165,6 +166,16 @@ footer,
   }
   .skill-sign {
     font-size: 27px;
+  }
+  .certificates-main-div {
+    display: grid;
+    grid-auto-columns: 1fr;
+  }
+  .certificate-link-div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
   body {
     margin-bottom: 80px;
