@@ -7,7 +7,6 @@ body {
 }
 h1 {
   font-size: 90px;
-
   margin: 0 auto;
 }
 h2 {
@@ -35,7 +34,8 @@ footer,
   text-align: center;
   color: var(--main-color);
 }
-.index-body {
+.index-body,
+.project-body {
   margin-bottom: 100px;
 }
 .certificates {
@@ -51,7 +51,8 @@ footer,
 .hero {
   margin: 10px auto 30px auto;
 }
-.main-info {
+.main-info,
+.projects {
   margin: 0 auto;
   max-width: 800px;
 }
@@ -87,7 +88,6 @@ footer,
   border: 1px solid var(--main-color);
   border-radius: 4px;
 }
-
 .launch-app-link {
   padding: 15px 15px;
   color: var(--main-color);
@@ -103,7 +103,7 @@ footer,
 .container-fluid {
   font-size: 30px;
 }
-.content {
+.social-media-links {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -116,7 +116,6 @@ footer,
   font-size: 30px;
   text-align: center;
 }
-
 .landing-page-cats-text,
 .react-weather-app-text,
 .vanilla-weather-app-text {
@@ -124,18 +123,11 @@ footer,
   font-size: 30px;
   text-align: start;
 }
-.projects {
-  max-width: 900px;
-}
-.project-body {
-  margin-bottom: 100px;
-}
 .landing-page-cats-container,
 .react-weather-app-container,
 .vanilla-weather-app-container {
   margin-top: 50px;
 }
-
 .project-image {
   background: linear-gradient(
     109.6deg,
@@ -148,12 +140,11 @@ footer,
 }
 .contacts-container {
   margin: 50px auto;
-  max-width: 900px;
+  max-width: 800px;
 }
 .contacts-h2 {
   display: inline;
 }
-
 .footer-navbar > .container,
 .footer-navbar > .footer-navbar-content,
 .footer-navbar > .container-lg,
@@ -173,11 +164,9 @@ footer,
   .skill-sign {
     font-size: 27px;
   }
-  body,
-  .contacts-body {
+  body {
     margin-bottom: 80px;
   }
-
   .footer-signs {
     padding: 10px 10px;
   }
@@ -203,5 +192,8 @@ footer,
   }
   .maria-photo {
     margin-top: 10px;
+  }
+  img {
+    width: 350px;
   }
 } ;
