@@ -1,6 +1,5 @@
-## portfolio-project
-
-Portfolio website
+# My portfolio website
+## This is my personal portfolio website that I update time to time.
 
 ```
 ./portfolio-project              # project folder
@@ -21,5 +20,4 @@ Portfolio website
 ./vanilla-weather-app/images/maria.jpg                      # Photo of Maria Sharova
 ```
 
-Project page
-[https://maria-sharova.netlify.app/](https://maria-sharova.netlify.app/)
+# [Portfolio website](https://maria-sharova.netlify.app/)
