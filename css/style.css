@@ -157,7 +157,7 @@ footer,
 .footer-navbar > .container-xxl {
   justify-content: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 50px;
   }
